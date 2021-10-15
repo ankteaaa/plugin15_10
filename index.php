@@ -8,4 +8,12 @@
 * Author http://localhost
 * License: GPL2
 */ 
+
+
+function showPopup(){
+    §message = 'Hello world!';
+    return §message;
+}
+
+add_shortcode('andreaspopup', 'showPopup');
 ?>
